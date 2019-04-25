@@ -215,17 +215,6 @@ F 3 "~" H 3100 2150 50  0001 C CNN
 	1    3100 2150
 	0    -1   1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J7
-U 1 1 5CB4B56F
-P 3100 3250
-F 0 "J7" V 3104 2962 50  0000 R CNN
-F 1 "Conn_02x04_Odd_Even" V 3195 2962 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3100 3250 50  0001 C CNN
-F 3 "~" H 3100 3250 50  0001 C CNN
-	1    3100 3250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	3000 1950 3100 1950
 Connection ~ 3100 1950
@@ -234,12 +223,6 @@ Wire Wire Line
 Connection ~ 3200 1950
 Wire Wire Line
 	3200 1950 3300 1950
-Wire Wire Line
-	3000 2450 3000 2500
-Wire Wire Line
-	3000 2500 2600 2500
-Wire Wire Line
-	2600 2500 2600 2600
 Wire Wire Line
 	3100 2450 3100 2550
 Wire Wire Line
@@ -257,41 +240,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 2450 3700 2550
 Wire Wire Line
-	2600 2900 2600 3000
-Wire Wire Line
-	3000 3000 3000 3050
-Wire Wire Line
-	3000 3000 2600 3000
-Wire Wire Line
-	3100 3050 3100 2950
-Wire Wire Line
-	3100 2950 3200 2950
-Wire Wire Line
-	3200 2950 3200 2900
-Wire Wire Line
-	3200 3050 3200 3000
-Wire Wire Line
-	3200 3000 3500 3000
-Wire Wire Line
-	3500 3000 3500 2900
-Wire Wire Line
 	3700 2550 3700 2650
 Connection ~ 3700 2550
 Wire Wire Line
 	3700 2850 3700 2950
 Wire Wire Line
 	3700 2950 3700 3050
-Wire Wire Line
-	3700 3050 3300 3050
 Connection ~ 3700 2950
-Wire Wire Line
-	3000 3550 3100 3550
-Connection ~ 3100 3550
-Wire Wire Line
-	3100 3550 3150 3550
-Connection ~ 3200 3550
-Wire Wire Line
-	3200 3550 3300 3550
 $Comp
 L Device:R R4
 U 1 1 5CB50577
@@ -317,27 +272,16 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 5CC02A28
-P 3400 4750
-F 0 "R2" H 3470 4796 50  0000 L CNN
-F 1 "R" H 3470 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 4750 50  0001 C CNN
-F 3 "~" H 3400 4750 50  0001 C CNN
-	1    3400 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Variable R1
-U 1 1 5CC03136
-P 3400 4350
-F 0 "R1" H 3528 4396 50  0000 L CNN
-F 1 "R_Variable" H 3528 4305 50  0000 L CNN
-F 2 "" V 3330 4350 50  0001 C CNN
-F 3 "~" H 3400 4350 50  0001 C CNN
-	1    3400 4350
+P 3500 4750
+F 0 "R2" H 3570 4796 50  0000 L CNN
+F 1 "R" H 3570 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 4750 50  0001 C CNN
+F 3 "~" H 3500 4750 50  0001 C CNN
+	1    3500 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 4600 3400 4500
+	3500 4600 3500 4500
 $Comp
 L power:-15V #PWR06
 U 1 1 5CC04F47
@@ -378,9 +322,6 @@ Wire Wire Line
 Connection ~ 3150 4450
 Wire Wire Line
 	3150 4250 3150 3700
-Connection ~ 3150 3550
-Wire Wire Line
-	3150 3550 3200 3550
 Wire Wire Line
 	4200 5050 4500 5050
 Connection ~ 4200 5050
@@ -502,26 +443,7 @@ Wire Wire Line
 	5350 3050 5200 3050
 Wire Wire Line
 	5050 3050 5050 2900
-$Comp
-L Connector_Generic:Conn_02x01 J8
-U 1 1 5CC269B0
-P 3400 3900
-F 0 "J8" V 3404 3980 50  0000 L CNN
-F 1 "Conn_02x01" V 3495 3980 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 3400 3900 50  0001 C CNN
-F 3 "~" H 3400 3900 50  0001 C CNN
-	1    3400 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3400 3700 3150 3700
 Connection ~ 3150 3700
-Wire Wire Line
-	3150 3700 3150 3550
-Wire Wire Line
-	3400 4900 3400 4950
-Wire Wire Line
-	3400 4950 3150 4950
 Connection ~ 3150 4950
 Wire Wire Line
 	3150 4950 3150 5050
@@ -545,11 +467,90 @@ Wire Wire Line
 Wire Wire Line
 	5150 3700 5200 3700
 Wire Wire Line
-	5200 3700 5200 3050
+	5200 3700 5200 3400
 Connection ~ 5200 3700
 Wire Wire Line
 	5200 3700 5250 3700
 Connection ~ 5200 3050
 Wire Wire Line
 	5200 3050 5050 3050
+Wire Wire Line
+	3150 3050 3150 3300
+Connection ~ 3150 3050
+Wire Wire Line
+	3000 2550 2600 2550
+Wire Wire Line
+	2600 2550 2600 2600
+Wire Wire Line
+	3000 2450 3000 2550
+Wire Wire Line
+	2600 2900 2600 3050
+Wire Wire Line
+	2600 3050 3150 3050
+Wire Wire Line
+	3150 3050 3200 3050
+Wire Wire Line
+	3200 2900 3200 3050
+Connection ~ 3200 3050
+Wire Wire Line
+	3200 3050 3500 3050
+Wire Wire Line
+	3500 2900 3500 3050
+Connection ~ 3500 3050
+Wire Wire Line
+	3500 3050 3700 3050
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5CC2FF5F
+P 5700 3300
+F 0 "J7" H 5780 3292 50  0000 L CNN
+F 1 "Conn_01x02" H 5780 3201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5700 3300 50  0001 C CNN
+F 3 "~" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3300 3150 3300
+Connection ~ 3150 3300
+Wire Wire Line
+	3150 3300 3150 3700
+Wire Wire Line
+	5500 3400 5200 3400
+Connection ~ 5200 3400
+Wire Wire Line
+	5200 3400 5200 3050
+$Comp
+L Device:R_POT RV1
+U 1 1 5CC3714E
+P 3500 4350
+F 0 "RV1" H 3431 4396 50  0000 R CNN
+F 1 "R_POT" H 3431 4305 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 3500 4350 50  0001 C CNN
+F 3 "~" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J8
+U 1 1 5CC269B0
+P 3500 3900
+F 0 "J8" V 3504 3980 50  0000 L CNN
+F 1 "Conn_02x01" V 3595 3980 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 3500 3900 50  0001 C CNN
+F 3 "~" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3700 3500 3700
+Wire Wire Line
+	3500 4950 3500 4900
+Wire Wire Line
+	3150 4950 3500 4950
+Wire Wire Line
+	3650 4350 3650 4500
+Wire Wire Line
+	3650 4500 3500 4500
+Connection ~ 3500 4500
 $EndSCHEMATC
