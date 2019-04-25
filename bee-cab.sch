@@ -144,7 +144,7 @@ U 1 1 5CB4A30B
 P 2600 2750
 F 0 "C1" H 2715 2796 50  0000 L CNN
 F 1 "C_Variable" H 2715 2705 50  0000 L CNN
-F 2 "" H 2600 2750 50  0001 C CNN
+F 2 "Capacitor_THT-emt:C_Trimmer_Vishay_D10mm_Vertical_HolePattern5mmx10mm" H 2600 2750 50  0001 C CNN
 F 3 "~" H 2600 2750 50  0001 C CNN
 	1    2600 2750
 	1    0    0    -1  
@@ -172,10 +172,10 @@ F 3 "~" H 3200 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5CB4A9D0
 P 3900 2550
-F 0 "J9" H 3980 2542 50  0000 L CNN
+F 0 "J8" H 3980 2542 50  0000 L CNN
 F 1 "Conn_01x02" H 3980 2451 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 3900 2550 50  0001 C CNN
 F 3 "~" H 3900 2550 50  0001 C CNN
@@ -183,10 +183,10 @@ F 3 "~" H 3900 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J10
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5CB4AA40
 P 3900 2850
-F 0 "J10" H 3980 2842 50  0000 L CNN
+F 0 "J9" H 3980 2842 50  0000 L CNN
 F 1 "Conn_01x02" H 3980 2751 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 3900 2850 50  0001 C CNN
 F 3 "~" H 3900 2850 50  0001 C CNN
@@ -194,10 +194,10 @@ F 3 "~" H 3900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R1
 U 1 1 5CB4AE05
 P 3500 2750
-F 0 "R3" H 3570 2796 50  0000 L CNN
+F 0 "R1" H 3570 2796 50  0000 L CNN
 F 1 "R" H 3570 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 2750 50  0001 C CNN
 F 3 "~" H 3500 2750 50  0001 C CNN
@@ -248,10 +248,10 @@ Wire Wire Line
 	3700 2950 3700 3050
 Connection ~ 3700 2950
 $Comp
-L Device:R R4
+L Device:R R3
 U 1 1 5CB50577
 P 5050 2750
-F 0 "R4" H 5120 2796 50  0000 L CNN
+F 0 "R3" H 5120 2796 50  0000 L CNN
 F 1 "R" H 5120 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 2750 50  0001 C CNN
 F 3 "~" H 5050 2750 50  0001 C CNN
@@ -259,10 +259,10 @@ F 3 "~" H 5050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R4
 U 1 1 5CB50759
 P 5050 4500
-F 0 "R5" H 5120 4546 50  0000 L CNN
+F 0 "R4" H 5120 4546 50  0000 L CNN
 F 1 "R" H 5120 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 4500 50  0001 C CNN
 F 3 "~" H 5050 4500 50  0001 C CNN
@@ -327,10 +327,10 @@ Wire Wire Line
 Connection ~ 4200 5050
 Connection ~ 4150 1800
 $Comp
-L Connector_Generic:Conn_01x01 J11
+L Connector_Generic:Conn_01x01 J10
 U 1 1 5CC0CCD3
 P 4500 4850
-F 0 "J11" V 4464 4762 50  0000 R CNN
+F 0 "J10" V 4464 4762 50  0000 R CNN
 F 1 "Conn_01x01" V 4373 4762 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4500 4850 50  0001 C CNN
 F 3 "~" H 4500 4850 50  0001 C CNN
@@ -339,10 +339,10 @@ F 3 "~" H 4500 4850 50  0001 C CNN
 $EndComp
 Connection ~ 4500 5050
 $Comp
-L Connector_Generic:Conn_01x02 J16
+L Connector_Generic:Conn_01x02 J15
 U 1 1 5CC09F7D
 P 5550 4300
-F 0 "J16" H 5630 4292 50  0000 L CNN
+F 0 "J15" H 5630 4292 50  0000 L CNN
 F 1 "Conn_01x02" H 5630 4201 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 5550 4300 50  0001 C CNN
 F 3 "~" H 5550 4300 50  0001 C CNN
@@ -350,10 +350,10 @@ F 3 "~" H 5550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J17
+L Connector_Generic:Conn_01x02 J16
 U 1 1 5CC09F87
 P 5550 4600
-F 0 "J17" H 5630 4592 50  0000 L CNN
+F 0 "J16" H 5630 4592 50  0000 L CNN
 F 1 "Conn_01x02" H 5630 4501 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 5550 4600 50  0001 C CNN
 F 3 "~" H 5550 4600 50  0001 C CNN
@@ -371,10 +371,10 @@ Wire Wire Line
 	5350 4700 5350 4800
 Connection ~ 5350 4700
 $Comp
-L Connector_Generic:Conn_01x02 J14
+L Connector_Generic:Conn_01x02 J13
 U 1 1 5CC12845
 P 5550 2550
-F 0 "J14" H 5630 2542 50  0000 L CNN
+F 0 "J13" H 5630 2542 50  0000 L CNN
 F 1 "Conn_01x02" H 5630 2451 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 5550 2550 50  0001 C CNN
 F 3 "~" H 5550 2550 50  0001 C CNN
@@ -382,10 +382,10 @@ F 3 "~" H 5550 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J15
+L Connector_Generic:Conn_01x02 J14
 U 1 1 5CC1284F
 P 5550 2850
-F 0 "J15" H 5630 2842 50  0000 L CNN
+F 0 "J14" H 5630 2842 50  0000 L CNN
 F 1 "Conn_01x02" H 5630 2751 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 5550 2850 50  0001 C CNN
 F 3 "~" H 5550 2850 50  0001 C CNN
@@ -403,10 +403,10 @@ Wire Wire Line
 	5350 2950 5350 3050
 Connection ~ 5350 2950
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J12
+L Connector_Generic:Conn_02x02_Odd_Even J11
 U 1 1 5CC15D49
 P 5150 2150
-F 0 "J12" V 5154 1962 50  0000 R CNN
+F 0 "J11" V 5154 1962 50  0000 R CNN
 F 1 "Conn_02x02_Odd_Even" V 5245 1962 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5150 2150 50  0001 C CNN
 F 3 "~" H 5150 2150 50  0001 C CNN
@@ -414,10 +414,10 @@ F 3 "~" H 5150 2150 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J13
+L Connector_Generic:Conn_02x02_Odd_Even J12
 U 1 1 5CC1719B
 P 5150 3900
-F 0 "J13" V 5154 3712 50  0000 R CNN
+F 0 "J12" V 5154 3712 50  0000 R CNN
 F 1 "Conn_02x02_Odd_Even" V 5245 3712 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5150 3900 50  0001 C CNN
 F 3 "~" H 5150 3900 50  0001 C CNN
@@ -467,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3700 5200 3700
 Wire Wire Line
-	5200 3700 5200 3400
+	5200 3700 5200 3500
 Connection ~ 5200 3700
 Wire Wire Line
 	5200 3700 5250 3700
@@ -499,27 +499,13 @@ Wire Wire Line
 Connection ~ 3500 3050
 Wire Wire Line
 	3500 3050 3700 3050
-$Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 5CC2FF5F
-P 5700 3300
-F 0 "J7" H 5780 3292 50  0000 L CNN
-F 1 "Conn_01x02" H 5780 3201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5700 3300 50  0001 C CNN
-F 3 "~" H 5700 3300 50  0001 C CNN
-	1    5700 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 3300 3150 3300
 Connection ~ 3150 3300
 Wire Wire Line
 	3150 3300 3150 3700
 Wire Wire Line
-	5500 3400 5200 3400
-Connection ~ 5200 3400
-Wire Wire Line
-	5200 3400 5200 3050
+	5500 3500 5200 3500
 $Comp
 L Device:R_POT RV1
 U 1 1 5CC3714E
@@ -532,10 +518,10 @@ F 3 "~" H 3500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x01 J8
+L Connector_Generic:Conn_02x01 J7
 U 1 1 5CC269B0
 P 3500 3900
-F 0 "J8" V 3504 3980 50  0000 L CNN
+F 0 "J7" V 3504 3980 50  0000 L CNN
 F 1 "Conn_02x01" V 3595 3980 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 3500 3900 50  0001 C CNN
 F 3 "~" H 3500 3900 50  0001 C CNN
@@ -553,4 +539,31 @@ Wire Wire Line
 Wire Wire Line
 	3650 4500 3500 4500
 Connection ~ 3500 4500
+$Comp
+L Connector_Generic:Conn_01x03 J17
+U 1 1 5CC3261E
+P 5700 3400
+F 0 "J17" H 5780 3442 50  0000 L CNN
+F 1 "Conn_01x03" H 5780 3351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5700 3400 50  0001 C CNN
+F 3 "~" H 5700 3400 50  0001 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 3500
+Wire Wire Line
+	5200 3050 5200 3500
+$Comp
+L power:GND #PWR07
+U 1 1 5CC3509D
+P 5400 3400
+F 0 "#PWR07" H 5400 3150 50  0001 C CNN
+F 1 "GND" H 5405 3227 50  0000 C CNN
+F 2 "" H 5400 3400 50  0001 C CNN
+F 3 "" H 5400 3400 50  0001 C CNN
+	1    5400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3400 5500 3400
 $EndSCHEMATC
