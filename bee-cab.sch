@@ -528,13 +528,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J6
 U 1 1 5CC3C4A8
-P 3100 2150
-F 0 "J6" V 3104 1962 50  0000 R CNN
-F 1 "Conn_02x03_Odd_Even" V 3195 1962 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3100 2150 50  0001 C CNN
-F 3 "~" H 3100 2150 50  0001 C CNN
-	1    3100 2150
-	0    -1   1    0   
+P 3100 2250
+F 0 "J6" V 3104 2062 50  0000 R CNN
+F 1 "Conn_02x03_Odd_Even" V 3195 2062 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3100 2250 50  0001 C CNN
+F 3 "~" H 3100 2250 50  0001 C CNN
+	1    3100 2250
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3100 1950 3150 1950
