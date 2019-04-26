@@ -204,25 +204,6 @@ F 3 "~" H 3500 2750 50  0001 C CNN
 	1    3500 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J6
-U 1 1 5CB4B44B
-P 3100 2150
-F 0 "J6" V 3104 1862 50  0000 R CNN
-F 1 "Conn_02x04_Odd_Even" V 3195 1862 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3100 2150 50  0001 C CNN
-F 3 "~" H 3100 2150 50  0001 C CNN
-	1    3100 2150
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	3000 1950 3100 1950
-Connection ~ 3100 1950
-Wire Wire Line
-	3100 1950 3150 1950
-Connection ~ 3200 1950
-Wire Wire Line
-	3200 1950 3300 1950
 Wire Wire Line
 	3100 2450 3100 2550
 Wire Wire Line
@@ -309,8 +290,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 1800 3150 1950
 Connection ~ 3150 1950
-Wire Wire Line
-	3150 1950 3200 1950
 Wire Wire Line
 	3150 4350 3150 4450
 Wire Wire Line
@@ -402,28 +381,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 2950 5350 3050
 Connection ~ 5350 2950
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J11
-U 1 1 5CC15D49
-P 5150 2150
-F 0 "J11" V 5154 1962 50  0000 R CNN
-F 1 "Conn_02x02_Odd_Even" V 5245 1962 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5150 2150 50  0001 C CNN
-F 3 "~" H 5150 2150 50  0001 C CNN
-	1    5150 2150
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J12
-U 1 1 5CC1719B
-P 5150 3900
-F 0 "J12" V 5154 3712 50  0000 R CNN
-F 1 "Conn_02x02_Odd_Even" V 5245 3712 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5150 3900 50  0001 C CNN
-F 3 "~" H 5150 3900 50  0001 C CNN
-	1    5150 3900
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	5200 1800 5200 1950
 Wire Wire Line
@@ -566,4 +523,53 @@ F 3 "" H 5400 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 3400 5500 3400
+Wire Wire Line
+	3150 1950 3200 1950
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J6
+U 1 1 5CC3C4A8
+P 3100 2150
+F 0 "J6" V 3104 1962 50  0000 R CNN
+F 1 "Conn_02x03_Odd_Even" V 3195 1962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3100 2150 50  0001 C CNN
+F 3 "~" H 3100 2150 50  0001 C CNN
+	1    3100 2150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3100 1950 3150 1950
+Connection ~ 3200 1950
+Wire Wire Line
+	3200 1950 3300 1950
+Wire Wire Line
+	3000 1950 3100 1950
+Connection ~ 3100 1950
+Wire Wire Line
+	3300 2450 3300 1950
+$Comp
+L Connector_Generic:Conn_02x01 J11
+U 1 1 5CC423CE
+P 5150 2150
+F 0 "J11" V 5154 2230 50  0000 L CNN
+F 1 "Conn_02x01" V 5245 2230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5150 2150 50  0001 C CNN
+F 3 "~" H 5150 2150 50  0001 C CNN
+	1    5150 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2450 5250 1950
+$Comp
+L Connector_Generic:Conn_02x01 J12
+U 1 1 5CC45458
+P 5150 3900
+F 0 "J12" V 5154 3980 50  0000 L CNN
+F 1 "Conn_02x01" V 5245 3980 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5150 3900 50  0001 C CNN
+F 3 "~" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4200 5250 3700
 $EndSCHEMATC
