@@ -572,4 +572,42 @@ F 3 "~" H 5150 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 4200 5250 3700
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5CC336A4
+P 3950 4200
+F 0 "J18" H 4030 4192 50  0000 L CNN
+F 1 "Conn_01x02" H 4030 4101 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 3950 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5CC336AE
+P 3950 4500
+F 0 "J19" H 4030 4492 50  0000 L CNN
+F 1 "Conn_01x02" H 4030 4401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 3950 4500 50  0001 C CNN
+F 3 "~" H 3950 4500 50  0001 C CNN
+	1    3950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4200 3750 4300
+Connection ~ 3750 4200
+Wire Wire Line
+	3750 4500 3750 4600
+Connection ~ 3750 4600
+Wire Wire Line
+	3750 4950 3500 4950
+Wire Wire Line
+	3750 4600 3750 4950
+Connection ~ 3500 4950
+Wire Wire Line
+	3750 3700 3500 3700
+Wire Wire Line
+	3750 3700 3750 4200
+Connection ~ 3500 3700
 $EndSCHEMATC
