@@ -147,7 +147,7 @@ F 1 "C_Variable" H 2715 2705 50  0000 L CNN
 F 2 "Capacitor_THT-emt:C_Trimmer_Vishay_D10mm_Vertical_HolePattern5mmx10mm" H 2600 2750 50  0001 C CNN
 F 3 "~" H 2600 2750 50  0001 C CNN
 	1    2600 2750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J5
@@ -435,13 +435,7 @@ Wire Wire Line
 	3150 3050 3150 3300
 Connection ~ 3150 3050
 Wire Wire Line
-	3000 2550 2600 2550
-Wire Wire Line
-	2600 2550 2600 2600
-Wire Wire Line
 	3000 2450 3000 2550
-Wire Wire Line
-	2600 2900 2600 3050
 Wire Wire Line
 	2600 3050 3150 3050
 Wire Wire Line
@@ -610,4 +604,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 3700 3750 4200
 Connection ~ 3500 3700
+Wire Wire Line
+	3000 2550 2600 2550
+Wire Wire Line
+	2600 2550 2600 2600
+Wire Wire Line
+	2600 2900 2600 3050
 $EndSCHEMATC
