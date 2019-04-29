@@ -698,4 +698,92 @@ F 3 "~" H 1700 7550 50  0001 C CNN
 	1    1700 7550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5CC731BF
+P 3000 7400
+F 0 "H10" H 3100 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3100 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3000 7400 50  0001 C CNN
+F 3 "~" H 3000 7400 50  0001 C CNN
+	1    3000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CC74B62
+P 3000 7500
+F 0 "#PWR0101" H 3000 7250 50  0001 C CNN
+F 1 "GND" H 3005 7327 50  0000 C CNN
+F 2 "" H 3000 7500 50  0001 C CNN
+F 3 "" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5CC7CF5D
+P 3000 6900
+F 0 "H9" H 3100 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3100 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3000 6900 50  0001 C CNN
+F 3 "~" H 3000 6900 50  0001 C CNN
+	1    3000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC7CF67
+P 3000 7000
+F 0 "#PWR0102" H 3000 6750 50  0001 C CNN
+F 1 "GND" H 3005 6827 50  0000 C CNN
+F 2 "" H 3000 7000 50  0001 C CNN
+F 3 "" H 3000 7000 50  0001 C CNN
+	1    3000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5CC82F8F
+P 4050 7400
+F 0 "H12" H 4150 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4150 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4050 7400 50  0001 C CNN
+F 3 "~" H 4050 7400 50  0001 C CNN
+	1    4050 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CC82F99
+P 4050 7500
+F 0 "#PWR0103" H 4050 7250 50  0001 C CNN
+F 1 "GND" H 4055 7327 50  0000 C CNN
+F 2 "" H 4050 7500 50  0001 C CNN
+F 3 "" H 4050 7500 50  0001 C CNN
+	1    4050 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5CC82FA3
+P 4050 6900
+F 0 "H11" H 4150 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4150 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4050 6900 50  0001 C CNN
+F 3 "~" H 4050 6900 50  0001 C CNN
+	1    4050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CC82FAD
+P 4050 7000
+F 0 "#PWR0104" H 4050 6750 50  0001 C CNN
+F 1 "GND" H 4055 6827 50  0000 C CNN
+F 2 "" H 4050 7000 50  0001 C CNN
+F 3 "" H 4050 7000 50  0001 C CNN
+	1    4050 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
