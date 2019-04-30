@@ -1427,8 +1427,8 @@
       (net 3 GND))
   )
 
-  (gr_line (start 74.93 115.57) (end 100.33 115.57) (layer F.SilkS) (width 0.15))
-  (gr_line (start 90.17 88.9) (end 90.17 142.24) (layer F.SilkS) (width 0.15))
+  (gr_line (start 74.93 115.57) (end 100.33 115.57) (layer F.SilkS) (width 0.2))
+  (gr_line (start 90.17 88.9) (end 90.17 142.24) (layer F.SilkS) (width 0.2))
   (gr_line (start 103.378 88.9) (end 103.378 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815404))
   (gr_line (start 74.422 142.24) (end 103.378 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815401))
   (gr_line (start 74.422 88.9) (end 103.378 88.9) (layer Edge.Cuts) (width 0.15))
