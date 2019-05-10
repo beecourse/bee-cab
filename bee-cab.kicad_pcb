@@ -1895,7 +1895,7 @@
     (fp_line (start 0 0.8) (end 0 0) (layer F.SilkS) (width 0.15))
   )
 
-  (gr_text "EMT\nbee-cab\nrev A" (at 93.726 138.684) (layer F.SilkS)
+  (gr_text "EMT\nbee-cab\nrev B" (at 93.726 138.684) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 74.93 115.57) (end 100.33 115.57) (layer F.SilkS) (width 0.2))
