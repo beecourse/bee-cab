@@ -768,23 +768,23 @@ $EndComp
 $Comp
 L Mechanical-emt:Silkscreen_Label H13
 U 1 1 5CCCFACF
-P 5150 6900
-F 0 "H13" H 5275 6945 50  0000 L CNN
-F 1 "Silkscreen_Label" H 5275 6854 50  0000 L CNN
-F 2 "Symbol-emt:EMT-Logo_5.1x2.5mm_Silkscreen" H 5150 6900 50  0001 C CNN
-F 3 "~" H 5150 6900 50  0001 C CNN
-	1    5150 6900
+P 5150 6950
+F 0 "H13" H 5275 6995 50  0000 L CNN
+F 1 "Silkscreen_Label" H 5275 6904 50  0000 L CNN
+F 2 "Symbol-emt:EMT-Logo_5.1x2.5mm_Silkscreen" H 5150 6950 50  0001 C CNN
+F 3 "~" H 5150 6950 50  0001 C CNN
+	1    5150 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical-emt:Silkscreen_Label H14
 U 1 1 5CCCFB83
-P 5150 7100
-F 0 "H14" H 5275 7145 50  0000 L CNN
-F 1 "Silkscreen_Label" H 5275 7054 50  0000 L CNN
-F 2 "Symbol-emt:BEE-Logo_Silkscreen_small" H 5150 7100 50  0001 C CNN
-F 3 "~" H 5150 7100 50  0001 C CNN
-	1    5150 7100
+P 5150 7150
+F 0 "H14" H 5275 7195 50  0000 L CNN
+F 1 "Silkscreen_Label" H 5275 7104 50  0000 L CNN
+F 2 "Symbol-emt:BEE-Logo_Silkscreen_small" H 5150 7150 50  0001 C CNN
+F 3 "~" H 5150 7150 50  0001 C CNN
+	1    5150 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -857,4 +857,26 @@ $EndComp
 Connection ~ 4250 5050
 Wire Wire Line
 	4250 5050 5200 5050
+$Comp
+L Mechanical-emt:Silkscreen_Label H15
+U 1 1 5CD6423E
+P 5150 7350
+F 0 "H15" H 5275 7395 50  0000 L CNN
+F 1 "Silkscreen_Label" H 5275 7304 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_S_Silkscreen" H 5150 7350 50  0001 C CNN
+F 3 "~" H 5150 7350 50  0001 C CNN
+	1    5150 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H16
+U 1 1 5CD64244
+P 5150 7550
+F 0 "H16" H 5275 7595 50  0000 L CNN
+F 1 "Silkscreen_Label" H 5275 7504 50  0000 L CNN
+F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 5150 7550 50  0001 C CNN
+F 3 "~" H 5150 7550 50  0001 C CNN
+	1    5150 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
