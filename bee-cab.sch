@@ -278,61 +278,16 @@ F 4 "RND 0805 1 910K" H 3500 4750 50  0001 C CNN "Reichelt Part No"
 $EndComp
 Wire Wire Line
 	3500 4600 3500 4500
-$Comp
-L power:-15V #PWR06
-U 1 1 5CC04F47
-P 4200 5000
-F 0 "#PWR06" H 4200 5100 50  0001 C CNN
-F 1 "-15V" H 4215 5173 50  0000 C CNN
-F 2 "" H 4200 5000 50  0001 C CNN
-F 3 "" H 4200 5000 50  0001 C CNN
-	1    4200 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+15V #PWR05
-U 1 1 5CC05E5D
-P 4150 1800
-F 0 "#PWR05" H 4150 1650 50  0001 C CNN
-F 1 "+15V" H 4165 1973 50  0000 C CNN
-F 2 "" H 4150 1800 50  0001 C CNN
-F 3 "" H 4150 1800 50  0001 C CNN
-	1    4150 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 1800 3150 1800
 Wire Wire Line
 	3150 1800 3150 1950
 Connection ~ 3150 1950
 Wire Wire Line
 	3150 4350 3150 4450
 Wire Wire Line
-	3150 5050 4200 5050
-Wire Wire Line
-	4200 5050 4200 5000
-Wire Wire Line
 	3150 4450 3150 4950
 Connection ~ 3150 4450
 Wire Wire Line
 	3150 4250 3150 3700
-Wire Wire Line
-	4200 5050 4500 5050
-Connection ~ 4200 5050
-Connection ~ 4150 1800
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5CC0CCD3
-P 4500 4850
-F 0 "J10" V 4464 4762 50  0000 R CNN
-F 1 "Conn_01x01" V 4373 4762 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4500 4850 50  0001 C CNN
-F 3 "~" H 4500 4850 50  0001 C CNN
-F 4 "RND 205-00622" H 4500 4850 50  0001 C CNN "Reichelt Part No"
-	1    4500 4850
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4500 5050
 $Comp
 L Connector_Generic:Conn_01x02 J15
 U 1 1 5CC09F7D
@@ -406,8 +361,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 1950 5150 1950
 Wire Wire Line
-	4150 1800 5200 1800
-Wire Wire Line
 	5200 1950 5250 1950
 Connection ~ 5200 1950
 Wire Wire Line
@@ -436,8 +389,6 @@ Wire Wire Line
 	5050 4800 5050 4650
 Wire Wire Line
 	5200 4800 5200 5050
-Wire Wire Line
-	4500 5050 5200 5050
 Connection ~ 5200 4800
 Wire Wire Line
 	5200 4800 5050 4800
@@ -836,4 +787,74 @@ F 3 "~" H 5150 7100 50  0001 C CNN
 	1    5150 7100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3150 1800 4200 1800
+Wire Wire Line
+	3150 5050 4250 5050
+$Comp
+L power:VAC #PWR0105
+U 1 1 5CD565A4
+P 4350 1050
+F 0 "#PWR0105" H 4350 950 50  0001 C CNN
+F 1 "VAC" H 4350 1325 50  0000 C CNN
+F 2 "" H 4350 1050 50  0001 C CNN
+F 3 "" H 4350 1050 50  0001 C CNN
+	1    4350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5CD56716
+P 4350 1150
+F 0 "#PWR0106" H 4350 900 50  0001 C CNN
+F 1 "GND" H 4355 977 50  0000 C CNN
+F 2 "" H 4350 1150 50  0001 C CNN
+F 3 "" H 4350 1150 50  0001 C CNN
+	1    4350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 5CD569BF
+P 3800 1050
+F 0 "J10" H 3906 1228 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3906 1137 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3800 1050 50  0001 C CNN
+F 3 "~" H 3800 1050 50  0001 C CNN
+F 4 "RND 205-00623" H 3800 1050 50  0001 C CNN "Reichelt Part No"
+	1    3800 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1050 4350 1050
+Wire Wire Line
+	4000 1150 4350 1150
+$Comp
+L power:VAC #PWR0107
+U 1 1 5CD5E157
+P 4200 1800
+F 0 "#PWR0107" H 4200 1700 50  0001 C CNN
+F 1 "VAC" H 4200 2075 50  0000 C CNN
+F 2 "" H 4200 1800 50  0001 C CNN
+F 3 "" H 4200 1800 50  0001 C CNN
+	1    4200 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 1800
+Wire Wire Line
+	4200 1800 5200 1800
+$Comp
+L power:GND #PWR0108
+U 1 1 5CD5E1B4
+P 4250 5050
+F 0 "#PWR0108" H 4250 4800 50  0001 C CNN
+F 1 "GND" H 4255 4877 50  0000 C CNN
+F 2 "" H 4250 5050 50  0001 C CNN
+F 3 "" H 4250 5050 50  0001 C CNN
+	1    4250 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 5050
+Wire Wire Line
+	4250 5050 5200 5050
 $EndSCHEMATC
