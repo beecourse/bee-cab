@@ -148,7 +148,7 @@ U 1 1 5CB4A30B
 P 2600 2750
 F 0 "C1" H 2715 2796 50  0000 L CNN
 F 1 "5,5-65p" H 2715 2705 50  0000 L CNN
-F 2 "Capacitor_THT-emt:C_Trimmer_Vishay_D10mm_Vertical_HolePattern5mmx10mm" H 2600 2750 50  0001 C CNN
+F 2 "Capacitor_THT-bee:C_Trimmer_Vishay_D10mm_Vertical_HolePattern5mmx10mm" H 2600 2750 50  0001 C CNN
 F 3 "~" H 2600 2750 50  0001 C CNN
 F 4 "TRIMMER 31659" H 2600 2750 50  0001 C CNN "Reichelt Part No"
 	1    2600 2750
@@ -160,7 +160,7 @@ U 1 1 5CB4A834
 P 2950 4350
 F 0 "J5" H 2870 4025 50  0000 C CNN
 F 1 "Molex" H 2870 4116 50  0000 C CNN
-F 2 "Connector_Molex-emt:Molex_Easy-On_528070310_1x03_P1.0mm_Horizontal" H 2950 4350 50  0001 C CNN
+F 2 "Connector_Molex-bee:Molex_Easy-On_528070310_1x03_P1.0mm_Horizontal" H 2950 4350 50  0001 C CNN
 F 3 "~" H 2950 4350 50  0001 C CNN
 F 4 "538-52807-0310" H 2950 4350 50  0001 C CNN "Mouser Part No"
 F 5 "Molex" H 2950 4350 50  0001 C CNN "Manufacturer"
@@ -590,89 +590,89 @@ Wire Wire Line
 Wire Wire Line
 	2600 2900 2600 3050
 $Comp
-L Mechanical-emt:Silkscreen_Label H4
+L Mechanical-bee:Silkscreen_Label H4
 U 1 1 5CC7DACB
 P 800 7550
 F 0 "H4" H 925 7595 50  0000 L CNN
 F 1 "Silkscreen_Label" H 925 7504 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B-_Silkscreen" H 800 7550 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B-_Silkscreen" H 800 7550 50  0001 C CNN
 F 3 "~" H 800 7550 50  0001 C CNN
 	1    800  7550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H3
+L Mechanical-bee:Silkscreen_Label H3
 U 1 1 5CC7E4B0
 P 800 7350
 F 0 "H3" H 925 7395 50  0000 L CNN
 F 1 "Silkscreen_Label" H 925 7304 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B-_Silkscreen" H 800 7350 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B-_Silkscreen" H 800 7350 50  0001 C CNN
 F 3 "~" H 800 7350 50  0001 C CNN
 	1    800  7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H2
+L Mechanical-bee:Silkscreen_Label H2
 U 1 1 5CC7E7BF
 P 800 7150
 F 0 "H2" H 925 7195 50  0000 L CNN
 F 1 "Silkscreen_Label" H 925 7104 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B+_Silkscreen" H 800 7150 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B+_Silkscreen" H 800 7150 50  0001 C CNN
 F 3 "~" H 800 7150 50  0001 C CNN
 	1    800  7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H1
+L Mechanical-bee:Silkscreen_Label H1
 U 1 1 5CC7EB64
 P 800 6950
 F 0 "H1" H 925 6995 50  0000 L CNN
 F 1 "Silkscreen_Label" H 925 6904 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B+_Silkscreen" H 800 6950 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B+_Silkscreen" H 800 6950 50  0001 C CNN
 F 3 "~" H 800 6950 50  0001 C CNN
 	1    800  6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H5
+L Mechanical-bee:Silkscreen_Label H5
 U 1 1 5CC7EED7
 P 1700 6950
 F 0 "H5" H 1825 6995 50  0000 L CNN
 F 1 "Silkscreen_Label" H 1825 6904 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B2_Silkscreen" H 1700 6950 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B2_Silkscreen" H 1700 6950 50  0001 C CNN
 F 3 "~" H 1700 6950 50  0001 C CNN
 	1    1700 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H6
+L Mechanical-bee:Silkscreen_Label H6
 U 1 1 5CC7F429
 P 1700 7150
 F 0 "H6" H 1825 7195 50  0000 L CNN
 F 1 "Silkscreen_Label" H 1825 7104 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B2_Silkscreen" H 1700 7150 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B2_Silkscreen" H 1700 7150 50  0001 C CNN
 F 3 "~" H 1700 7150 50  0001 C CNN
 	1    1700 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H7
+L Mechanical-bee:Silkscreen_Label H7
 U 1 1 5CC7F75B
 P 1700 7350
 F 0 "H7" H 1825 7395 50  0000 L CNN
 F 1 "Silkscreen_Label" H 1825 7304 50  0000 L CNN
-F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 1700 7350 50  0001 C CNN
+F 2 "Symbol-bee:Symbol_GND_Silkscreen" H 1700 7350 50  0001 C CNN
 F 3 "~" H 1700 7350 50  0001 C CNN
 	1    1700 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H8
+L Mechanical-bee:Silkscreen_Label H8
 U 1 1 5CC7FA9C
 P 1700 7550
 F 0 "H8" H 1825 7595 50  0000 L CNN
 F 1 "Silkscreen_Label" H 1825 7504 50  0000 L CNN
-F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 1700 7550 50  0001 C CNN
+F 2 "Symbol-bee:Symbol_GND_Silkscreen" H 1700 7550 50  0001 C CNN
 F 3 "~" H 1700 7550 50  0001 C CNN
 	1    1700 7550
 	1    0    0    -1  
@@ -766,23 +766,23 @@ F 3 "" H 4050 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H13
+L Mechanical-bee:Silkscreen_Label H13
 U 1 1 5CCCFACF
 P 5150 6950
 F 0 "H13" H 5275 6995 50  0000 L CNN
 F 1 "Silkscreen_Label" H 5275 6904 50  0000 L CNN
-F 2 "Symbol-emt:EMT-Logo_5.1x2.5mm_Silkscreen" H 5150 6950 50  0001 C CNN
+F 2 "Symbol-bee:EMT-Logo_5.1x2.5mm_Silkscreen" H 5150 6950 50  0001 C CNN
 F 3 "~" H 5150 6950 50  0001 C CNN
 	1    5150 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H14
+L Mechanical-bee:Silkscreen_Label H14
 U 1 1 5CCCFB83
 P 5150 7150
 F 0 "H14" H 5275 7195 50  0000 L CNN
 F 1 "Silkscreen_Label" H 5275 7104 50  0000 L CNN
-F 2 "Symbol-emt:BEE-Logo_Silkscreen_small" H 5150 7150 50  0001 C CNN
+F 2 "Symbol-bee:BEE-Logo_Silkscreen_small" H 5150 7150 50  0001 C CNN
 F 3 "~" H 5150 7150 50  0001 C CNN
 	1    5150 7150
 	1    0    0    -1  
@@ -858,23 +858,23 @@ Connection ~ 4250 5050
 Wire Wire Line
 	4250 5050 5200 5050
 $Comp
-L Mechanical-emt:Silkscreen_Label H15
+L Mechanical-bee:Silkscreen_Label H15
 U 1 1 5CD6423E
 P 5150 7350
 F 0 "H15" H 5275 7395 50  0000 L CNN
 F 1 "Silkscreen_Label" H 5275 7304 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_S_Silkscreen" H 5150 7350 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_S_Silkscreen" H 5150 7350 50  0001 C CNN
 F 3 "~" H 5150 7350 50  0001 C CNN
 	1    5150 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H16
+L Mechanical-bee:Silkscreen_Label H16
 U 1 1 5CD64244
 P 5150 7550
 F 0 "H16" H 5275 7595 50  0000 L CNN
 F 1 "Silkscreen_Label" H 5275 7504 50  0000 L CNN
-F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 5150 7550 50  0001 C CNN
+F 2 "Symbol-bee:Symbol_GND_Silkscreen" H 5150 7550 50  0001 C CNN
 F 3 "~" H 5150 7550 50  0001 C CNN
 	1    5150 7550
 	1    0    0    -1  
